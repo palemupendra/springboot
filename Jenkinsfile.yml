@@ -10,8 +10,6 @@ pipelines:
     any:
   default:
     - step:
-        name: git credentialsId: 'Github', url: 'https://github.com/palemupendra/springboot.git'
-    - step:
         name: Maven Clean Build
         caches:
           - maven
