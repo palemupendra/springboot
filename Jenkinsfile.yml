@@ -6,6 +6,8 @@
 image: maven:3.3.9
 
 pipelines:
+  agent:
+    any:
   default:
     - step:
         name: Maven Clean Build
